@@ -1,5 +1,7 @@
 public class Sorter {
     public static void main(String[] args) {
+        int[] m = {3,4,5};
+        sort(m);
         System.out.println("Hello, World!");
     }
 
@@ -39,5 +41,9 @@ public class Sorter {
             }
             arr[j + 1] = key;
         }
+    }
+
+    public static void sort(int[] m){
+        insertionSort(m);
     }
 }
